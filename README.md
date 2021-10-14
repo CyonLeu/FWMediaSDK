@@ -22,7 +22,7 @@ pod 'FWMediaSDK'
 
 ## Author
 
-Yong Liu, liuyong@qupeiyin.com
+Yong Liu, cyonleu@126.com
 
 ## License
 
