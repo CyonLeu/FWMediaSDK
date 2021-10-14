@@ -60,9 +60,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7704CEC1C6DC3379571FA92A /* Pods_FWMediaSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FWMediaSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B69E2356601326639E4CC01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		ADEE30ACD608087662C1DCD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DDBF27CB7A31775208269008 /* FWMediaSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FWMediaSDK.podspec; path = ../FWMediaSDK.podspec; sourceTree = "<group>"; };
+		8B69E2356601326639E4CC01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ADEE30ACD608087662C1DCD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DDBF27CB7A31775208269008 /* FWMediaSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FWMediaSDK.podspec; path = ../FWMediaSDK.podspec; sourceTree = "<group>"; };
 		E2D66F282792A642D5852581 /* Pods-FWMediaSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWMediaSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-FWMediaSDK_Example/Pods-FWMediaSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E54F8DB077F0886161CA4753 /* Pods-FWMediaSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWMediaSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-FWMediaSDK_Example/Pods-FWMediaSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EA7E7A439F87376B91960193 /* Pods-FWMediaSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWMediaSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-FWMediaSDK_Tests/Pods-FWMediaSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				1658640BE763873C1CB8BDD5 /* Pods-FWMediaSDK_Tests.debug.xcconfig */,
 				EA7E7A439F87376B91960193 /* Pods-FWMediaSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -246,7 +245,7 @@
 			attributes = {
 				CLASSPREFIX = FW;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = FeizhuAuto;
+				ORGANIZATIONNAME = FlyWire;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -498,7 +498,7 @@
 				GCC_PREFIX_HEADER = "FWMediaSDK/FWMediaSDK-Prefix.pch";
 				INFOPLIST_FILE = "FWMediaSDK/FWMediaSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flywire.FWMediaSDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -514,7 +514,7 @@
 				GCC_PREFIX_HEADER = "FWMediaSDK/FWMediaSDK-Prefix.pch";
 				INFOPLIST_FILE = "FWMediaSDK/FWMediaSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flywire.FWMediaSDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

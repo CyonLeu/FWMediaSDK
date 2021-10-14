@@ -1,0 +1,22 @@
+{
+  "name": "FWMediaSDK",
+  "version": "0.1.0",
+  "summary": "A short description of FWMediaSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/FeizhuAuto/FWMediaSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "FeizhuAuto": "ishowtalkapp@163.com"
+  },
+  "source": {
+    "git": "https://github.com/FeizhuAuto/FWMediaSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FWMediaSDK/Classes/**/*"
+}

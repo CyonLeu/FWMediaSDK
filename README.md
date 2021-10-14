@@ -1,6 +1,6 @@
 # FWMediaSDK
 
-[![CI Status](https://img.shields.io/travis/FeizhuAuto/FWMediaSDK.svg?style=flat)](https://travis-ci.org/FeizhuAuto/FWMediaSDK)
+[![CI Status](https://img.shields.io/travis/CyonLeu/FWMediaSDK.svg?style=flat)](https://travis-ci.org/CyonLeu/FWMediaSDK)
 [![Version](https://img.shields.io/cocoapods/v/FWMediaSDK.svg?style=flat)](https://cocoapods.org/pods/FWMediaSDK)
 [![License](https://img.shields.io/cocoapods/l/FWMediaSDK.svg?style=flat)](https://cocoapods.org/pods/FWMediaSDK)
 [![Platform](https://img.shields.io/cocoapods/p/FWMediaSDK.svg?style=flat)](https://cocoapods.org/pods/FWMediaSDK)
@@ -22,7 +22,7 @@ pod 'FWMediaSDK'
 
 ## Author
 
-FeizhuAuto, ishowtalkapp@163.com
+CyonLeu, cyonleu@126.com
 
 ## License
 

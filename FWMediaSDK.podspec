@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/FeizhuAuto/FWMediaSDK'
+  s.homepage         = 'https://github.com/CyonLeu/FWMediaSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'FeizhuAuto' => 'ishowtalkapp@163.com' }
-  s.source           = { :git => 'https://github.com/FeizhuAuto/FWMediaSDK.git', :tag => s.version.to_s }
+  s.author           = { 'CyonLeu' => 'ishowtalkapp@163.com' }
+  s.source           = { :git => 'https://github.com/CyonLeu/FWMediaSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
