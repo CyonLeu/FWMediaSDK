@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FWMediaSDK_Example' do
+  pod 'FWMediaSDK', :path => '../'
+
+  target 'FWMediaSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
