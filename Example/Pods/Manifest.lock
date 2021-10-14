@@ -1,0 +1,16 @@
+PODS:
+  - FWMediaSDK (0.1.0)
+
+DEPENDENCIES:
+  - FWMediaSDK (from `../`)
+
+EXTERNAL SOURCES:
+  FWMediaSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FWMediaSDK: 9fdf72f8decf0012b55be7e9b4405d07b757c052
+
+PODFILE CHECKSUM: 9a0ff242e8b29fc37b77962d257fb96d8ba6d8b0
+
+COCOAPODS: 1.10.1
