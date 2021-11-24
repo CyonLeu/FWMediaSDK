@@ -2,8 +2,8 @@
 //  FWMediaSDKTests.m
 //  FWMediaSDKTests
 //
-//  Created by Yong Liu on 10/14/2021.
-//  Copyright (c) 2021 Yong Liu. All rights reserved.
+//  Created by CyonLeu on 10/14/2021.
+//  Copyright (c) 2021 CyonLeu. All rights reserved.
 //
 
 @import XCTest;

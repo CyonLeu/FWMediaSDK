@@ -6,28 +6,55 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		99C9B375C2185AA3E53316AC4BF6ECE7 /* ffmpeg-kit-ios-full */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C19A0EB9BC182A789DA8120074CB3643 /* Build configuration list for PBXAggregateTarget "ffmpeg-kit-ios-full" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "ffmpeg-kit-ios-full";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1B805AE1D91602EC7CAEBD4601C94793 /* FWMediaSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF2ECCB2FA6A0B73C2AADC331AC6840 /* FWMediaSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		229E59EBDF74DE66C4BEC37F2B17A250 /* FWMediaSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7599243E9894E8643BBF9EA6CC6C6E /* FWMediaSDK-dummy.m */; };
+		0F566EBE6A566AE2BE952ED1C6905DB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		27F5289BB488777EB70177FBA0CC4F83 /* FWMediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 648CD7B2FCE5C5E8F2E8B85329202E6A /* FWMediaManager.m */; };
 		2807524C48D83CDD214A8B4D1B610D78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		483FAF302918D8A71ED97FC049BE2CAF /* Pods-FWMediaSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE93A13CEA0AA7A39F97103840B9B44 /* Pods-FWMediaSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F9365AD8E69D966F34B307BD410E333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		759E20429F34C4087A84790B173B4823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		85BC91ED0D57CB03BB1BF093433D2CA7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C076D948C77901856E3FD44C6625D825 /* ReplaceMe.m */; };
-		A315F6B26F5A1B4F0F924AFE7D07C0AA /* Pods-FWMediaSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0DE8E1BEADFC93B3FA8D28B41B23E9 /* Pods-FWMediaSDK_Example-dummy.m */; };
-		A91549EE3B2F68789D06880ABE7CB48C /* Pods-FWMediaSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D735A767D627913E41E23B26B6CC5CF8 /* Pods-FWMediaSDK_Tests-dummy.m */; };
-		E0CC31557DCC83DB29CF55E1DA7DFA40 /* Pods-FWMediaSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF31F4B415C94F5332201673C383E666 /* Pods-FWMediaSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B211EE813744810147182C1FC820D9B /* Pods-FWMediaSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D44B28B71A325E440B945DF79613CD /* Pods-FWMediaSDK_Example-dummy.m */; };
+		4564D4E6FFAEF51403160CC8E9B120C7 /* Pods-FWMediaSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBA6E64693994C38559FEF772400ABF /* Pods-FWMediaSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		483FAF302918D8A71ED97FC049BE2CAF /* Pods-FWMediaSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09703E44BB39E29D65A07421A961B373 /* Pods-FWMediaSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		574545A16088515641E8468789BC16DA /* FWMediaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A0FD91EB0BB0044163956E87D1558E /* FWMediaManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		693289D430CE9190865E9BB26F29A738 /* FWMediaSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AFC906AF6AE1AAF76E5C23254C3A83 /* FWMediaSDK-dummy.m */; };
+		A91549EE3B2F68789D06880ABE7CB48C /* Pods-FWMediaSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5277ABEB42E7F910B2A2D2577DA35F86 /* Pods-FWMediaSDK_Tests-dummy.m */; };
+		DD864B5C2104268E5F98A1031DBEBA60 /* FWMediaSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE68D61520CF48C7EDDABD849798D58 /* FWMediaSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4E4EF7FD9F3B0B487B10F4DA526C256 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		71B5F00269945427A360E86CDB6141A9 /* PBXContainerItemProxy */ = {
+		8B286AC00E3301A3808DF89EC0AF2C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C9B375C2185AA3E53316AC4BF6ECE7;
+			remoteInfo = "ffmpeg-kit-ios-full";
+		};
+		9C3EE1FC8334683C0AB6F256AEA7703A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4292B3F7AD82357FB74C3168BF071059;
 			remoteInfo = "Pods-FWMediaSDK_Example";
 		};
-		E075050AFAF2059EA3FB1D3CCB547E18 /* PBXContainerItemProxy */ = {
+		AFB0C25C3D73A5111EFEE9AF66B4B14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C9B375C2185AA3E53316AC4BF6ECE7;
+			remoteInfo = "ffmpeg-kit-ios-full";
+		};
+		C358269518BB9B9B2D41FF3D75A4527F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,47 +64,104 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E84F3F2719F64424149C04E08B44FE /* Pods-FWMediaSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWMediaSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1A0DE8E1BEADFC93B3FA8D28B41B23E9 /* Pods-FWMediaSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FWMediaSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		1CD48B521A15FA40B77D829FB9D687A3 /* Pods-FWMediaSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FWMediaSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2106CA74D9C1F37EC1B2CF0D294A5F96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2839A4F7AB145710826521CF8D20A30A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		066789E77C43C348A2C6A9EA516D7856 /* Pods-FWMediaSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWMediaSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		08110A06A3F6EFE11352BAB9FDB45558 /* Pods-FWMediaSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWMediaSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		09703E44BB39E29D65A07421A961B373 /* Pods-FWMediaSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FWMediaSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		12A780D4C83B8E7CC144C4FE589449FD /* libavutil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavutil.framework; sourceTree = "<group>"; };
+		142A546F2778EAB3D0006A42B99B41E0 /* libwebp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libwebp.framework; sourceTree = "<group>"; };
+		145563CEB2D25B42C1E24A05A6EC858D /* libopencore-amrnb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "libopencore-amrnb.framework"; sourceTree = "<group>"; };
+		15341B4CD0B7CE6EC5C228B8DC126DC1 /* libhogweed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libhogweed.framework; sourceTree = "<group>"; };
+		15AF51344BEB859FAAD35B4327B46849 /* Pods-FWMediaSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FWMediaSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BA94BFFCD65833FD3DC35454A9F5FD4 /* speex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = speex.framework; sourceTree = "<group>"; };
+		1C9539D76F3F363191926EC2E5042E9A /* libtheoradec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libtheoradec.framework; sourceTree = "<group>"; };
+		211CB4247A8F957A7291EED77945082C /* Pods-FWMediaSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWMediaSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		281ED4A170CA0A882E924D5DA80A5FC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		28230BA21492016585433098250924CB /* libvorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbisenc.framework; sourceTree = "<group>"; };
+		2BDCD9B90E3FA47799E93800C4062047 /* libpng.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libpng.framework; sourceTree = "<group>"; };
+		2D50B3536768D017BC0683668F97BD97 /* Pods-FWMediaSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWMediaSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		2E5A4F8BFCFB9281B824D1A52915A71F /* gmp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gmp.framework; sourceTree = "<group>"; };
+		2F869E28B7BDD87775EC4CE710D7E573 /* opus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opus.framework; sourceTree = "<group>"; };
+		31DA0F50A605AAD726E84A65FEB51BCC /* libvorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbisfile.framework; sourceTree = "<group>"; };
 		32D5081D0C216B6FCF813A6F956B5630 /* Pods_FWMediaSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FWMediaSDK_Tests.framework; path = "Pods-FWMediaSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37840F716C2B6C19262D6577C468AA33 /* Pods-FWMediaSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWMediaSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		39714BE9CA9ADE3F8ED08239D94E3F5E /* FWMediaSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FWMediaSDK-prefix.pch"; sourceTree = "<group>"; };
-		3CF549FD03A8AA15B7CEA14A00C7352F /* Pods-FWMediaSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWMediaSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		3D7599243E9894E8643BBF9EA6CC6C6E /* FWMediaSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FWMediaSDK-dummy.m"; sourceTree = "<group>"; };
-		4380CD77BEE0196072EBD8A859447EFB /* FWMediaSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FWMediaSDK.modulemap; sourceTree = "<group>"; };
-		4AF2ECCB2FA6A0B73C2AADC331AC6840 /* FWMediaSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FWMediaSDK-umbrella.h"; sourceTree = "<group>"; };
-		4E2223752AEF6077081A98A106ACB2BC /* Pods-FWMediaSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWMediaSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		37A552B00447546F4251132EAB13E774 /* fontconfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fontconfig.framework; sourceTree = "<group>"; };
+		37E6DEE9D457517DE1B52858E5DBD10C /* ffmpeg-kit-ios-full.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ffmpeg-kit-ios-full.debug.xcconfig"; sourceTree = "<group>"; };
+		3BE68D61520CF48C7EDDABD849798D58 /* FWMediaSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FWMediaSDK-umbrella.h"; sourceTree = "<group>"; };
+		3D6AC4474E5F72A3AAFABF881AFA8CBA /* libass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libass.framework; sourceTree = "<group>"; };
+		41AFC906AF6AE1AAF76E5C23254C3A83 /* FWMediaSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FWMediaSDK-dummy.m"; sourceTree = "<group>"; };
+		493D1AD67F45BAF038E29267B491A4D2 /* ffmpeg-kit-ios-full.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ffmpeg-kit-ios-full.release.xcconfig"; sourceTree = "<group>"; };
+		4B6AAD67987338CBFA38BAA312395C5E /* dav1d.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = dav1d.framework; sourceTree = "<group>"; };
+		4C9366C0D859EBA6B64336FD4C92BD26 /* Pods-FWMediaSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FWMediaSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		5125577ACD378706BBC97AEC5456B97D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5277ABEB42E7F910B2A2D2577DA35F86 /* Pods-FWMediaSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FWMediaSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		57BB05A8E5908EA7AEA233B4416D6BC1 /* Pods-FWMediaSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWMediaSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		584C1DDB6D22B50C378CAA28D440EE37 /* shine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = shine.framework; sourceTree = "<group>"; };
+		5E0C21E5BD047F0E49BC1D2C0BFAF3E0 /* twolame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = twolame.framework; sourceTree = "<group>"; };
+		619565B3D5AE147E94E10193848E0A45 /* expat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = expat.framework; sourceTree = "<group>"; };
+		648CD7B2FCE5C5E8F2E8B85329202E6A /* FWMediaManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FWMediaManager.m; path = FWMediaSDK/Classes/FWMediaManager.m; sourceTree = "<group>"; };
+		69B50E22B31A7D53EFC886215F8075A0 /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lame.framework; sourceTree = "<group>"; };
+		6EB6086EA9BB3C3B5D1C8ADF3383EE9B /* harfbuzz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = harfbuzz.framework; sourceTree = "<group>"; };
+		6FBA09A48109DD813BAD6BF3A846D120 /* libtheora.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libtheora.framework; sourceTree = "<group>"; };
+		6FE7AC9CECD3CEE8DEDECFCE729A08A3 /* libwebpdemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libwebpdemux.framework; sourceTree = "<group>"; };
+		7013E258B53ED82D652CD70FB4A5351E /* giflib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = giflib.framework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8994322CDC700104E7C2ABA47DE5DAB5 /* Pods-FWMediaSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FWMediaSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8CD4B401883B3F9A397CA5E407788E62 /* Pods-FWMediaSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWMediaSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		92F4B08C58BF58D355C9A0B3EED638F0 /* FWMediaSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FWMediaSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9986030331B5E0D3AC4F67B7E95C5A08 /* Pods-FWMediaSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWMediaSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		78A0FD91EB0BB0044163956E87D1558E /* FWMediaManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FWMediaManager.h; path = FWMediaSDK/Classes/FWMediaManager.h; sourceTree = "<group>"; };
+		7E64A6F6C098C589BB6303143BBA7D45 /* libwebpmux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libwebpmux.framework; sourceTree = "<group>"; };
+		7EFA672F1FD41AE07318492D0755264E /* FWMediaSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FWMediaSDK.release.xcconfig; sourceTree = "<group>"; };
+		7F1EFE7C6119492771A713890742B896 /* libvpx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvpx.framework; sourceTree = "<group>"; };
+		82CA8474585B5DE6A534944EB0F76D2D /* ffmpegkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ffmpegkit.framework; sourceTree = "<group>"; };
+		8552B8C0A4A58C41298B2B6A43FA678A /* libilbc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libilbc.framework; sourceTree = "<group>"; };
+		87D5BB3DA87ADDE1E3EF0D91093E6F2B /* FWMediaSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FWMediaSDK-prefix.pch"; sourceTree = "<group>"; };
+		8B902E963DE5084CAF50520B298BD4C0 /* libavfilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavfilter.framework; sourceTree = "<group>"; };
+		8C80A224B6DD367DAABD65F0AFEF62A4 /* libavdevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavdevice.framework; sourceTree = "<group>"; };
+		8D23743ACC30E21AADD199CBDFE7E4CE /* libswscale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswscale.framework; sourceTree = "<group>"; };
+		92B742FD9D28837641E6B627E4B38A5B /* FWMediaSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FWMediaSDK-Info.plist"; sourceTree = "<group>"; };
+		93D44B28B71A325E440B945DF79613CD /* Pods-FWMediaSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FWMediaSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		94DBF07C62759D11EC7C67D6E43C071F /* FWMediaSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FWMediaSDK.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A60583DBD1A41F85AC5AAE0A2F8907B3 /* Pods-FWMediaSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FWMediaSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		9DE209018780980DFC0DDF4E295FE817 /* jpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = jpeg.framework; sourceTree = "<group>"; };
+		9E2617283DD49251FAC3573E9C4C8421 /* Pods-FWMediaSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FWMediaSDK_Example.modulemap"; sourceTree = "<group>"; };
+		A9B5FAB9F71AB315CA1E7DEB51522F63 /* libavformat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavformat.framework; sourceTree = "<group>"; };
+		B09D1CC524AE28F35E371D1CFC6E7432 /* libvorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbis.framework; sourceTree = "<group>"; };
 		BA5B9F59B3E8288B15469444A45D294E /* Pods_FWMediaSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FWMediaSDK_Example.framework; path = "Pods-FWMediaSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBDD2777EC3337574375FFA0A7A0C63D /* Pods-FWMediaSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FWMediaSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C076D948C77901856E3FD44C6625D825 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FWMediaSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		BFB6D9760230CC2986331AEC6EC2675F /* libsndfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libsndfile.framework; sourceTree = "<group>"; };
 		C1042FB0AEFD7D8FDE82C997A2CBEA64 /* FWMediaSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FWMediaSDK.framework; path = FWMediaSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAC168EA8D6699185227153ADAB7822B /* FWMediaSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FWMediaSDK.debug.xcconfig; sourceTree = "<group>"; };
-		CF31F4B415C94F5332201673C383E666 /* Pods-FWMediaSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FWMediaSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		D735A767D627913E41E23B26B6CC5CF8 /* Pods-FWMediaSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FWMediaSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		DAE93A13CEA0AA7A39F97103840B9B44 /* Pods-FWMediaSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FWMediaSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EDDB224CD821B885034E5CF3EF7B7A1C /* Pods-FWMediaSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWMediaSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EF22AA53D5E7E3E538B333D60A80BF40 /* Pods-FWMediaSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWMediaSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F76C3402804A07FB9E24A9C44F431FAF /* FWMediaSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FWMediaSDK.release.xcconfig; sourceTree = "<group>"; };
-		FA5A1FE22485AAEB5FAF8FB92B4A319C /* Pods-FWMediaSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FWMediaSDK_Example.modulemap"; sourceTree = "<group>"; };
-		FB9FBAE73736FE902EEB4756E8A384D5 /* FWMediaSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FWMediaSDK-Info.plist"; sourceTree = "<group>"; };
+		C2E97069BCADD7B63988F1500BEF64E6 /* fribidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fribidi.framework; sourceTree = "<group>"; };
+		D1DE2F061B3E521FA2C7AA9F25F7BCEF /* vo-amrwbenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "vo-amrwbenc.framework"; sourceTree = "<group>"; };
+		D4480AC8BD4F7F69900A4D642EC6FEEC /* libtheoraenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libtheoraenc.framework; sourceTree = "<group>"; };
+		D49EAF59FA90B4C44E61BE9A00E778D1 /* libswresample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswresample.framework; sourceTree = "<group>"; };
+		D5AC187FC8EEF983B6B268CF6CDCAB52 /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = freetype.framework; sourceTree = "<group>"; };
+		D8C62E92BEA0F8AC9B91758A61C3E680 /* libxml2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libxml2.framework; sourceTree = "<group>"; };
+		D9E9CBB1CF1EBC795C7FE615102ED17C /* libnettle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libnettle.framework; sourceTree = "<group>"; };
+		DDBA6E64693994C38559FEF772400ABF /* Pods-FWMediaSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FWMediaSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		E20118509F38961B080984D9625C1DA6 /* libogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libogg.framework; sourceTree = "<group>"; };
+		E3B5489E92F83D34EA2371AA7EFC9571 /* Pods-FWMediaSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWMediaSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6DF7533A717AEB712A23D046CBEB819 /* soxr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = soxr.framework; sourceTree = "<group>"; };
+		E8382E2CEF09B6EBF5B09B66A353C857 /* gnutls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gnutls.framework; sourceTree = "<group>"; };
+		E93ADDA82CC825CEF5A0DBA6716C74C0 /* FWMediaSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FWMediaSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC4A65EEB82E3E3AA5330A9AB1FEB6BA /* kvazaar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = kvazaar.framework; sourceTree = "<group>"; };
+		EF172ACABBA6EF2A8698E469AA8EDF9A /* libavcodec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavcodec.framework; sourceTree = "<group>"; };
+		F063DC2607FE01565104D630DE5E209E /* Pods-FWMediaSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWMediaSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F13417A330873AABA058D44C3357F0A1 /* snappy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = snappy.framework; sourceTree = "<group>"; };
+		F477624AE54EA6AADC64C0A51DCE5118 /* Pods-FWMediaSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWMediaSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F6CA16764E7E7DB56A651AE3693DD05F /* FWMediaSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FWMediaSDK.modulemap; sourceTree = "<group>"; };
+		F7C0CBA382F468A0127CFBE3428C5880 /* Pods-FWMediaSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FWMediaSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA6D8BC7EEAF0C713CA0F3B911674072 /* tiff.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tiff.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1EEB15129B37A90FBDDDE678B7D5010B /* Frameworks */ = {
+		19D8A659A913C131279A00CA4A1B73C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F9365AD8E69D966F34B307BD410E333 /* Foundation.framework in Frameworks */,
+				0F566EBE6A566AE2BE952ED1C6905DB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE9497762155ABDE14479139CC05799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E4EF7FD9F3B0B487B10F4DA526C256 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,48 +173,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D02B03683B8C7D6315D0AC708C577C0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				759E20429F34C4087A84790B173B4823 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		208601E3D5E95798C87C21712AA3B447 /* Pods-FWMediaSDK_Example */ = {
+		10EF70F008CBFE3B2196A0A053AA933C /* Pods-FWMediaSDK_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FA5A1FE22485AAEB5FAF8FB92B4A319C /* Pods-FWMediaSDK_Example.modulemap */,
-				BBDD2777EC3337574375FFA0A7A0C63D /* Pods-FWMediaSDK_Example-acknowledgements.markdown */,
-				8CD4B401883B3F9A397CA5E407788E62 /* Pods-FWMediaSDK_Example-acknowledgements.plist */,
-				1A0DE8E1BEADFC93B3FA8D28B41B23E9 /* Pods-FWMediaSDK_Example-dummy.m */,
-				8994322CDC700104E7C2ABA47DE5DAB5 /* Pods-FWMediaSDK_Example-frameworks.sh */,
-				37840F716C2B6C19262D6577C468AA33 /* Pods-FWMediaSDK_Example-Info.plist */,
-				CF31F4B415C94F5332201673C383E666 /* Pods-FWMediaSDK_Example-umbrella.h */,
-				4E2223752AEF6077081A98A106ACB2BC /* Pods-FWMediaSDK_Example.debug.xcconfig */,
-				EDDB224CD821B885034E5CF3EF7B7A1C /* Pods-FWMediaSDK_Example.release.xcconfig */,
-			);
-			name = "Pods-FWMediaSDK_Example";
-			path = "Target Support Files/Pods-FWMediaSDK_Example";
-			sourceTree = "<group>";
-		};
-		2954003A005AC8E0E04AE4E03C0D8898 /* Pods-FWMediaSDK_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A60583DBD1A41F85AC5AAE0A2F8907B3 /* Pods-FWMediaSDK_Tests.modulemap */,
-				1CD48B521A15FA40B77D829FB9D687A3 /* Pods-FWMediaSDK_Tests-acknowledgements.markdown */,
-				EF22AA53D5E7E3E538B333D60A80BF40 /* Pods-FWMediaSDK_Tests-acknowledgements.plist */,
-				D735A767D627913E41E23B26B6CC5CF8 /* Pods-FWMediaSDK_Tests-dummy.m */,
-				3CF549FD03A8AA15B7CEA14A00C7352F /* Pods-FWMediaSDK_Tests-Info.plist */,
-				DAE93A13CEA0AA7A39F97103840B9B44 /* Pods-FWMediaSDK_Tests-umbrella.h */,
-				9986030331B5E0D3AC4F67B7E95C5A08 /* Pods-FWMediaSDK_Tests.debug.xcconfig */,
-				01E84F3F2719F64424149C04E08B44FE /* Pods-FWMediaSDK_Tests.release.xcconfig */,
+				4C9366C0D859EBA6B64336FD4C92BD26 /* Pods-FWMediaSDK_Tests.modulemap */,
+				F7C0CBA382F468A0127CFBE3428C5880 /* Pods-FWMediaSDK_Tests-acknowledgements.markdown */,
+				E3B5489E92F83D34EA2371AA7EFC9571 /* Pods-FWMediaSDK_Tests-acknowledgements.plist */,
+				5277ABEB42E7F910B2A2D2577DA35F86 /* Pods-FWMediaSDK_Tests-dummy.m */,
+				2D50B3536768D017BC0683668F97BD97 /* Pods-FWMediaSDK_Tests-Info.plist */,
+				09703E44BB39E29D65A07421A961B373 /* Pods-FWMediaSDK_Tests-umbrella.h */,
+				F063DC2607FE01565104D630DE5E209E /* Pods-FWMediaSDK_Tests.debug.xcconfig */,
+				57BB05A8E5908EA7AEA233B4416D6BC1 /* Pods-FWMediaSDK_Tests.release.xcconfig */,
 			);
 			name = "Pods-FWMediaSDK_Tests";
 			path = "Target Support Files/Pods-FWMediaSDK_Tests";
+			sourceTree = "<group>";
+		};
+		4B9B20BAA5567E18D44ED60A5BC474F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				596E8685823ADCD4F2CA20D06CA8578D /* ffmpeg-kit-ios-full */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -141,15 +208,68 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		75358CAA37044642107B27E5623BC093 /* FWMediaSDK */ = {
+		596E8685823ADCD4F2CA20D06CA8578D /* ffmpeg-kit-ios-full */ = {
 			isa = PBXGroup;
 			children = (
-				C076D948C77901856E3FD44C6625D825 /* ReplaceMe.m */,
-				AE54584B204FF3EF19E261C0F5D4AFD4 /* Pod */,
-				CD1439D45A8326051703DC4DBAA4B724 /* Support Files */,
+				5CFB502BDEE1C17834A100061ECA46B6 /* Frameworks */,
+				E28C6C3D2119694E56DBA65B46C3453D /* Support Files */,
 			);
-			name = FWMediaSDK;
-			path = ../..;
+			name = "ffmpeg-kit-ios-full";
+			path = "ffmpeg-kit-ios-full";
+			sourceTree = "<group>";
+		};
+		5CFB502BDEE1C17834A100061ECA46B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AAD67987338CBFA38BAA312395C5E /* dav1d.framework */,
+				619565B3D5AE147E94E10193848E0A45 /* expat.framework */,
+				82CA8474585B5DE6A534944EB0F76D2D /* ffmpegkit.framework */,
+				37A552B00447546F4251132EAB13E774 /* fontconfig.framework */,
+				D5AC187FC8EEF983B6B268CF6CDCAB52 /* freetype.framework */,
+				C2E97069BCADD7B63988F1500BEF64E6 /* fribidi.framework */,
+				7013E258B53ED82D652CD70FB4A5351E /* giflib.framework */,
+				2E5A4F8BFCFB9281B824D1A52915A71F /* gmp.framework */,
+				E8382E2CEF09B6EBF5B09B66A353C857 /* gnutls.framework */,
+				6EB6086EA9BB3C3B5D1C8ADF3383EE9B /* harfbuzz.framework */,
+				9DE209018780980DFC0DDF4E295FE817 /* jpeg.framework */,
+				EC4A65EEB82E3E3AA5330A9AB1FEB6BA /* kvazaar.framework */,
+				69B50E22B31A7D53EFC886215F8075A0 /* lame.framework */,
+				3D6AC4474E5F72A3AAFABF881AFA8CBA /* libass.framework */,
+				EF172ACABBA6EF2A8698E469AA8EDF9A /* libavcodec.framework */,
+				8C80A224B6DD367DAABD65F0AFEF62A4 /* libavdevice.framework */,
+				8B902E963DE5084CAF50520B298BD4C0 /* libavfilter.framework */,
+				A9B5FAB9F71AB315CA1E7DEB51522F63 /* libavformat.framework */,
+				12A780D4C83B8E7CC144C4FE589449FD /* libavutil.framework */,
+				15341B4CD0B7CE6EC5C228B8DC126DC1 /* libhogweed.framework */,
+				8552B8C0A4A58C41298B2B6A43FA678A /* libilbc.framework */,
+				D9E9CBB1CF1EBC795C7FE615102ED17C /* libnettle.framework */,
+				E20118509F38961B080984D9625C1DA6 /* libogg.framework */,
+				145563CEB2D25B42C1E24A05A6EC858D /* libopencore-amrnb.framework */,
+				2BDCD9B90E3FA47799E93800C4062047 /* libpng.framework */,
+				BFB6D9760230CC2986331AEC6EC2675F /* libsndfile.framework */,
+				D49EAF59FA90B4C44E61BE9A00E778D1 /* libswresample.framework */,
+				8D23743ACC30E21AADD199CBDFE7E4CE /* libswscale.framework */,
+				6FBA09A48109DD813BAD6BF3A846D120 /* libtheora.framework */,
+				1C9539D76F3F363191926EC2E5042E9A /* libtheoradec.framework */,
+				D4480AC8BD4F7F69900A4D642EC6FEEC /* libtheoraenc.framework */,
+				B09D1CC524AE28F35E371D1CFC6E7432 /* libvorbis.framework */,
+				28230BA21492016585433098250924CB /* libvorbisenc.framework */,
+				31DA0F50A605AAD726E84A65FEB51BCC /* libvorbisfile.framework */,
+				7F1EFE7C6119492771A713890742B896 /* libvpx.framework */,
+				142A546F2778EAB3D0006A42B99B41E0 /* libwebp.framework */,
+				6FE7AC9CECD3CEE8DEDECFCE729A08A3 /* libwebpdemux.framework */,
+				7E64A6F6C098C589BB6303143BBA7D45 /* libwebpmux.framework */,
+				D8C62E92BEA0F8AC9B91758A61C3E680 /* libxml2.framework */,
+				2F869E28B7BDD87775EC4CE710D7E573 /* opus.framework */,
+				584C1DDB6D22B50C378CAA28D440EE37 /* shine.framework */,
+				F13417A330873AABA058D44C3357F0A1 /* snappy.framework */,
+				E6DF7533A717AEB712A23D046CBEB819 /* soxr.framework */,
+				1BA94BFFCD65833FD3DC35454A9F5FD4 /* speex.framework */,
+				FA6D8BC7EEAF0C713CA0F3B911674072 /* tiff.framework */,
+				5E0C21E5BD047F0E49BC1D2C0BFAF3E0 /* twolame.framework */,
+				D1DE2F061B3E521FA2C7AA9F25F7BCEF /* vo-amrwbenc.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7C734EB948AA02754C4994E78C05BD9C /* Products */ = {
@@ -162,56 +282,40 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BA2C7D3F3F04C1D06AF050C92BDAC62 /* Development Pods */ = {
+		9DD81AED290B4E85FA51267B23279DAC /* Pods-FWMediaSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
-				75358CAA37044642107B27E5623BC093 /* FWMediaSDK */,
+				9E2617283DD49251FAC3573E9C4C8421 /* Pods-FWMediaSDK_Example.modulemap */,
+				15AF51344BEB859FAAD35B4327B46849 /* Pods-FWMediaSDK_Example-acknowledgements.markdown */,
+				08110A06A3F6EFE11352BAB9FDB45558 /* Pods-FWMediaSDK_Example-acknowledgements.plist */,
+				93D44B28B71A325E440B945DF79613CD /* Pods-FWMediaSDK_Example-dummy.m */,
+				211CB4247A8F957A7291EED77945082C /* Pods-FWMediaSDK_Example-Info.plist */,
+				DDBA6E64693994C38559FEF772400ABF /* Pods-FWMediaSDK_Example-umbrella.h */,
+				066789E77C43C348A2C6A9EA516D7856 /* Pods-FWMediaSDK_Example.debug.xcconfig */,
+				F477624AE54EA6AADC64C0A51DCE5118 /* Pods-FWMediaSDK_Example.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Pods-FWMediaSDK_Example";
+			path = "Target Support Files/Pods-FWMediaSDK_Example";
 			sourceTree = "<group>";
 		};
-		9E1E69E874C0F90238A52FB8F9CB5436 /* Targets Support Files */ = {
+		B2AD0638AD44E6E91850A9C3CA50D759 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				208601E3D5E95798C87C21712AA3B447 /* Pods-FWMediaSDK_Example */,
-				2954003A005AC8E0E04AE4E03C0D8898 /* Pods-FWMediaSDK_Tests */,
+				9DD81AED290B4E85FA51267B23279DAC /* Pods-FWMediaSDK_Example */,
+				10EF70F008CBFE3B2196A0A053AA933C /* Pods-FWMediaSDK_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AE54584B204FF3EF19E261C0F5D4AFD4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				92F4B08C58BF58D355C9A0B3EED638F0 /* FWMediaSDK.podspec */,
-				2839A4F7AB145710826521CF8D20A30A /* LICENSE */,
-				2106CA74D9C1F37EC1B2CF0D294A5F96 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		CD1439D45A8326051703DC4DBAA4B724 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4380CD77BEE0196072EBD8A859447EFB /* FWMediaSDK.modulemap */,
-				3D7599243E9894E8643BBF9EA6CC6C6E /* FWMediaSDK-dummy.m */,
-				FB9FBAE73736FE902EEB4756E8A384D5 /* FWMediaSDK-Info.plist */,
-				39714BE9CA9ADE3F8ED08239D94E3F5E /* FWMediaSDK-prefix.pch */,
-				4AF2ECCB2FA6A0B73C2AADC331AC6840 /* FWMediaSDK-umbrella.h */,
-				CAC168EA8D6699185227153ADAB7822B /* FWMediaSDK.debug.xcconfig */,
-				F76C3402804A07FB9E24A9C44F431FAF /* FWMediaSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FWMediaSDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8BA2C7D3F3F04C1D06AF050C92BDAC62 /* Development Pods */,
+				DEA54682326E76A02BC4452316B7FB9F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4B9B20BAA5567E18D44ED60A5BC474F4 /* Pods */,
 				7C734EB948AA02754C4994E78C05BD9C /* Products */,
-				9E1E69E874C0F90238A52FB8F9CB5436 /* Targets Support Files */,
+				B2AD0638AD44E6E91850A9C3CA50D759 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -223,22 +327,78 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DEA54682326E76A02BC4452316B7FB9F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3C1240EA6F48464F27FB59D8319ADA9 /* FWMediaSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E28C6C3D2119694E56DBA65B46C3453D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37E6DEE9D457517DE1B52858E5DBD10C /* ffmpeg-kit-ios-full.debug.xcconfig */,
+				493D1AD67F45BAF038E29267B491A4D2 /* ffmpeg-kit-ios-full.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ffmpeg-kit-ios-full";
+			sourceTree = "<group>";
+		};
+		EB90B931AB0E4A4CD482A16869A0A8B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6CA16764E7E7DB56A651AE3693DD05F /* FWMediaSDK.modulemap */,
+				41AFC906AF6AE1AAF76E5C23254C3A83 /* FWMediaSDK-dummy.m */,
+				92B742FD9D28837641E6B627E4B38A5B /* FWMediaSDK-Info.plist */,
+				87D5BB3DA87ADDE1E3EF0D91093E6F2B /* FWMediaSDK-prefix.pch */,
+				3BE68D61520CF48C7EDDABD849798D58 /* FWMediaSDK-umbrella.h */,
+				94DBF07C62759D11EC7C67D6E43C071F /* FWMediaSDK.debug.xcconfig */,
+				7EFA672F1FD41AE07318492D0755264E /* FWMediaSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FWMediaSDK";
+			sourceTree = "<group>";
+		};
+		F3C1240EA6F48464F27FB59D8319ADA9 /* FWMediaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				78A0FD91EB0BB0044163956E87D1558E /* FWMediaManager.h */,
+				648CD7B2FCE5C5E8F2E8B85329202E6A /* FWMediaManager.m */,
+				F6A4A23C281ABFF11AD20BBBE36A6D8D /* Pod */,
+				EB90B931AB0E4A4CD482A16869A0A8B8 /* Support Files */,
+			);
+			name = FWMediaSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F6A4A23C281ABFF11AD20BBBE36A6D8D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E93ADDA82CC825CEF5A0DBA6716C74C0 /* FWMediaSDK.podspec */,
+				281ED4A170CA0A882E924D5DA80A5FC9 /* LICENSE */,
+				5125577ACD378706BBC97AEC5456B97D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		45119D2283CE3F9D65AB5B4F128F922B /* Headers */ = {
+		2E973EF63CBF9CC8A71719A2970A5D21 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B805AE1D91602EC7CAEBD4601C94793 /* FWMediaSDK-umbrella.h in Headers */,
+				4564D4E6FFAEF51403160CC8E9B120C7 /* Pods-FWMediaSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C682DB01F8C22095C173803224DC4547 /* Headers */ = {
+		F328E209A50CDDC681767F5269379011 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0CC31557DCC83DB29CF55E1DA7DFA40 /* Pods-FWMediaSDK_Example-umbrella.h in Headers */,
+				574545A16088515641E8468789BC16DA /* FWMediaManager.h in Headers */,
+				DD864B5C2104268E5F98A1031DBEBA60 /* FWMediaSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +425,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BB037102D5CFE529126B1B6932C4CBA7 /* PBXTargetDependency */,
+				9235CC3F548CFB011F953FD90CA72AE7 /* PBXTargetDependency */,
 			);
 			name = "Pods-FWMediaSDK_Tests";
 			productName = "Pods-FWMediaSDK_Tests";
@@ -274,16 +434,17 @@
 		};
 		12F55D2206ED2DB8F2FE832D29918ED5 /* FWMediaSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1D5373EE3E4D6574CF00A648109F914 /* Build configuration list for PBXNativeTarget "FWMediaSDK" */;
+			buildConfigurationList = 8BF2DF72FF57C1CC3C6982781CE20264 /* Build configuration list for PBXNativeTarget "FWMediaSDK" */;
 			buildPhases = (
-				45119D2283CE3F9D65AB5B4F128F922B /* Headers */,
-				8DBD6C9DC2BCDF4B937EFD8EE83BD58E /* Sources */,
-				1EEB15129B37A90FBDDDE678B7D5010B /* Frameworks */,
-				3817EDFFA6CE77E096B6A0932BF91DC0 /* Resources */,
+				F328E209A50CDDC681767F5269379011 /* Headers */,
+				623674AE56E1CAD7562BFC326767AAE4 /* Sources */,
+				6AE9497762155ABDE14479139CC05799 /* Frameworks */,
+				B895C5DF8B9791467D9FE168319327FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				504B964CCF421F1BB9A4E5FA49495E9B /* PBXTargetDependency */,
 			);
 			name = FWMediaSDK;
 			productName = FWMediaSDK;
@@ -292,17 +453,18 @@
 		};
 		4292B3F7AD82357FB74C3168BF071059 /* Pods-FWMediaSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7144704508C55252E940E4D529F594B /* Build configuration list for PBXNativeTarget "Pods-FWMediaSDK_Example" */;
+			buildConfigurationList = 4956489F2F9C0B1809409D5956D9A771 /* Build configuration list for PBXNativeTarget "Pods-FWMediaSDK_Example" */;
 			buildPhases = (
-				C682DB01F8C22095C173803224DC4547 /* Headers */,
-				3C1BC9544F7E84235C550DB8CC38C2C5 /* Sources */,
-				D02B03683B8C7D6315D0AC708C577C0C /* Frameworks */,
-				D12C289AA4DF957A694E63090D84350F /* Resources */,
+				2E973EF63CBF9CC8A71719A2970A5D21 /* Headers */,
+				C57E8850D58C0AA953ADCF585DC64424 /* Sources */,
+				19D8A659A913C131279A00CA4A1B73C7 /* Frameworks */,
+				A558A93C720B86E2FB3316FE8FEEEE69 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9E999EB8A9F4863C78A9CEA5F9CE9E3B /* PBXTargetDependency */,
+				977A1F23AE88F91AFB1B064225D1C471 /* PBXTargetDependency */,
+				7DA861B69F953DDB64502B292539EDF2 /* PBXTargetDependency */,
 			);
 			name = "Pods-FWMediaSDK_Example";
 			productName = "Pods-FWMediaSDK_Example";
@@ -331,6 +493,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				99C9B375C2185AA3E53316AC4BF6ECE7 /* ffmpeg-kit-ios-full */,
 				12F55D2206ED2DB8F2FE832D29918ED5 /* FWMediaSDK */,
 				4292B3F7AD82357FB74C3168BF071059 /* Pods-FWMediaSDK_Example */,
 				0B4A3506069565522486C7E763A13043 /* Pods-FWMediaSDK_Tests */,
@@ -339,14 +502,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3817EDFFA6CE77E096B6A0932BF91DC0 /* Resources */ = {
+		A558A93C720B86E2FB3316FE8FEEEE69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D12C289AA4DF957A694E63090D84350F /* Resources */ = {
+		B895C5DF8B9791467D9FE168319327FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +526,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3C1BC9544F7E84235C550DB8CC38C2C5 /* Sources */ = {
+		623674AE56E1CAD7562BFC326767AAE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A315F6B26F5A1B4F0F924AFE7D07C0AA /* Pods-FWMediaSDK_Example-dummy.m in Sources */,
+				27F5289BB488777EB70177FBA0CC4F83 /* FWMediaManager.m in Sources */,
+				693289D430CE9190865E9BB26F29A738 /* FWMediaSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DBD6C9DC2BCDF4B937EFD8EE83BD58E /* Sources */ = {
+		C57E8850D58C0AA953ADCF585DC64424 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229E59EBDF74DE66C4BEC37F2B17A250 /* FWMediaSDK-dummy.m in Sources */,
-				85BC91ED0D57CB03BB1BF093433D2CA7 /* ReplaceMe.m in Sources */,
+				2B211EE813744810147182C1FC820D9B /* Pods-FWMediaSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,22 +554,322 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9E999EB8A9F4863C78A9CEA5F9CE9E3B /* PBXTargetDependency */ = {
+		504B964CCF421F1BB9A4E5FA49495E9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FWMediaSDK;
-			target = 12F55D2206ED2DB8F2FE832D29918ED5 /* FWMediaSDK */;
-			targetProxy = E075050AFAF2059EA3FB1D3CCB547E18 /* PBXContainerItemProxy */;
+			name = "ffmpeg-kit-ios-full";
+			target = 99C9B375C2185AA3E53316AC4BF6ECE7 /* ffmpeg-kit-ios-full */;
+			targetProxy = AFB0C25C3D73A5111EFEE9AF66B4B14E /* PBXContainerItemProxy */;
 		};
-		BB037102D5CFE529126B1B6932C4CBA7 /* PBXTargetDependency */ = {
+		7DA861B69F953DDB64502B292539EDF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ffmpeg-kit-ios-full";
+			target = 99C9B375C2185AA3E53316AC4BF6ECE7 /* ffmpeg-kit-ios-full */;
+			targetProxy = 8B286AC00E3301A3808DF89EC0AF2C78 /* PBXContainerItemProxy */;
+		};
+		9235CC3F548CFB011F953FD90CA72AE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FWMediaSDK_Example";
 			target = 4292B3F7AD82357FB74C3168BF071059 /* Pods-FWMediaSDK_Example */;
-			targetProxy = 71B5F00269945427A360E86CDB6141A9 /* PBXContainerItemProxy */;
+			targetProxy = 9C3EE1FC8334683C0AB6F256AEA7703A /* PBXContainerItemProxy */;
+		};
+		977A1F23AE88F91AFB1B064225D1C471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FWMediaSDK;
+			target = 12F55D2206ED2DB8F2FE832D29918ED5 /* FWMediaSDK */;
+			targetProxy = C358269518BB9B9B2D41FF3D75A4527F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		1055D10F01EEBEB70EA9615B4C06E346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F063DC2607FE01565104D630DE5E209E /* Pods-FWMediaSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWMediaSDK_Tests/Pods-FWMediaSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWMediaSDK_Tests/Pods-FWMediaSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32E2911077111B2514B0203037DB5F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94DBF07C62759D11EC7C67D6E43C071F /* FWMediaSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FWMediaSDK/FWMediaSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FWMediaSDK/FWMediaSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FWMediaSDK/FWMediaSDK.modulemap";
+				PRODUCT_MODULE_NAME = FWMediaSDK;
+				PRODUCT_NAME = FWMediaSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A19557629CE79C163770985937F5F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E6DEE9D457517DE1B52858E5DBD10C /* ffmpeg-kit-ios-full.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DE5B18AA44217670468E07AE8D133AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFA672F1FD41AE07318492D0755264E /* FWMediaSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FWMediaSDK/FWMediaSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FWMediaSDK/FWMediaSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FWMediaSDK/FWMediaSDK.modulemap";
+				PRODUCT_MODULE_NAME = FWMediaSDK;
+				PRODUCT_NAME = FWMediaSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C57744ADF1B6AB14EE697CCAFE02143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BB05A8E5908EA7AEA233B4416D6BC1 /* Pods-FWMediaSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWMediaSDK_Tests/Pods-FWMediaSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWMediaSDK_Tests/Pods-FWMediaSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DFD60604042EC19BCE3E3123E88CD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493D1AD67F45BAF038E29267B491A4D2 /* ffmpeg-kit-ios-full.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		98283087BB1B658DB3AF1B150A4B4793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066789E77C43C348A2C6A9EA516D7856 /* Pods-FWMediaSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWMediaSDK_Example/Pods-FWMediaSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWMediaSDK_Example/Pods-FWMediaSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B51364BB55F8056F203CD5A378255637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F477624AE54EA6AADC64C0A51DCE5118 /* Pods-FWMediaSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWMediaSDK_Example/Pods-FWMediaSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWMediaSDK_Example/Pods-FWMediaSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -459,7 +922,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -472,276 +935,32 @@
 			};
 			name = Debug;
 		};
-		29333B84B35F0452FFDC8CA14DF49C81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01E84F3F2719F64424149C04E08B44FE /* Pods-FWMediaSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FWMediaSDK_Tests/Pods-FWMediaSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FWMediaSDK_Tests/Pods-FWMediaSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3E3D22525A70E319D693A98A87A1E3DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E2223752AEF6077081A98A106ACB2BC /* Pods-FWMediaSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FWMediaSDK_Example/Pods-FWMediaSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FWMediaSDK_Example/Pods-FWMediaSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4338BF13B47EDEFBDB19045AA7E73173 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDDB224CD821B885034E5CF3EF7B7A1C /* Pods-FWMediaSDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FWMediaSDK_Example/Pods-FWMediaSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FWMediaSDK_Example/Pods-FWMediaSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		E0CAF5B5419BECF94FD0015961979471 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F76C3402804A07FB9E24A9C44F431FAF /* FWMediaSDK.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FWMediaSDK/FWMediaSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FWMediaSDK/FWMediaSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FWMediaSDK/FWMediaSDK.modulemap";
-				PRODUCT_MODULE_NAME = FWMediaSDK;
-				PRODUCT_NAME = FWMediaSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E54E2EF737ECDDD60104C118B118B996 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAC168EA8D6699185227153ADAB7822B /* FWMediaSDK.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FWMediaSDK/FWMediaSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FWMediaSDK/FWMediaSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FWMediaSDK/FWMediaSDK.modulemap";
-				PRODUCT_MODULE_NAME = FWMediaSDK;
-				PRODUCT_NAME = FWMediaSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F540FB5A7FB7A3EBF99226246963BE65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9986030331B5E0D3AC4F67B7E95C5A08 /* Pods-FWMediaSDK_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FWMediaSDK_Tests/Pods-FWMediaSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FWMediaSDK_Tests/Pods-FWMediaSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1D5373EE3E4D6574CF00A648109F914 /* Build configuration list for PBXNativeTarget "FWMediaSDK" */ = {
+		4956489F2F9C0B1809409D5956D9A771 /* Build configuration list for PBXNativeTarget "Pods-FWMediaSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E54E2EF737ECDDD60104C118B118B996 /* Debug */,
-				E0CAF5B5419BECF94FD0015961979471 /* Release */,
+				98283087BB1B658DB3AF1B150A4B4793 /* Debug */,
+				B51364BB55F8056F203CD5A378255637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF2DF72FF57C1CC3C6982781CE20264 /* Build configuration list for PBXNativeTarget "FWMediaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E2911077111B2514B0203037DB5F1A /* Debug */,
+				4DE5B18AA44217670468E07AE8D133AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -749,17 +968,17 @@
 		A2148F92762A02642A139F9DBB3E0021 /* Build configuration list for PBXNativeTarget "Pods-FWMediaSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F540FB5A7FB7A3EBF99226246963BE65 /* Debug */,
-				29333B84B35F0452FFDC8CA14DF49C81 /* Release */,
+				1055D10F01EEBEB70EA9615B4C06E346 /* Debug */,
+				6C57744ADF1B6AB14EE697CCAFE02143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7144704508C55252E940E4D529F594B /* Build configuration list for PBXNativeTarget "Pods-FWMediaSDK_Example" */ = {
+		C19A0EB9BC182A789DA8120074CB3643 /* Build configuration list for PBXAggregateTarget "ffmpeg-kit-ios-full" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E3D22525A70E319D693A98A87A1E3DC /* Debug */,
-				4338BF13B47EDEFBDB19045AA7E73173 /* Release */,
+				3A19557629CE79C163770985937F5F54 /* Debug */,
+				6DFD60604042EC19BCE3E3123E88CD8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
