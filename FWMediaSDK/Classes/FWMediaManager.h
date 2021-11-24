@@ -22,7 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  根据时间段来裁剪音频文件:
  把一段音频裁剪为多段，根据数组时间点，
- 并放到toPathDir目录下，文件名以index字段来命名
+ 并放到toPathDir目录下，文件名以index字段来命名；
+ timeArray：多个NSDictionary对象，
+ 包含三个值{"index":"1", "beginTime":@(1.3), "endTime":@(3.0)}
  */
 - (void)cutAudioFile:(NSString *)filePath
               toPath:(NSString *)toPathDir
