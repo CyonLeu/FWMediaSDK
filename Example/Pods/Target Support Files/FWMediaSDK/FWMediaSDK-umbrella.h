@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "FWMediaConstant.h"
 #import "FWMediaManager.h"
 
 FOUNDATION_EXPORT double FWMediaSDKVersionNumber;

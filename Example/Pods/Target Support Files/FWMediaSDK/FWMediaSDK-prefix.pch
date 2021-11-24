@@ -10,3 +10,11 @@
 #endif
 #endif
 
+
+#ifndef FWMediaSDKHeader_h
+#define FWMediaSDKHeader_h
+
+#define WEAKSELF typeof(self) __weak weakSelf = self;
+
+#endif /* FWMediaSDKHeader_h */
+
