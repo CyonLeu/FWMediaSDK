@@ -3,20 +3,26 @@
   "version": "0.1.0",
   "summary": "A short description of FWMediaSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/FeizhuAuto/FWMediaSDK",
+  "homepage": "https://github.com/CyonLeu/FWMediaSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "FeizhuAuto": "ishowtalkapp@163.com"
+    "CyonLeu": "CyonLeu@163.com"
   },
   "source": {
-    "git": "https://github.com/FeizhuAuto/FWMediaSDK.git",
+    "git": "https://github.com/CyonLeu/FWMediaSDK.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "FWMediaSDK/Classes/**/*"
+  "source_files": "FWMediaSDK/Classes/**/*",
+  "static_framework": true,
+  "dependencies": {
+    "ffmpeg-kit-ios-full": [
+      "~> 4.5.LTS"
+    ]
+  }
 }

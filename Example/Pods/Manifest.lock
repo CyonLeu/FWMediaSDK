@@ -1,16 +1,23 @@
 PODS:
-  - FWMediaSDK (0.1.0)
+  - ffmpeg-kit-ios-full (4.5.LTS)
+  - FWMediaSDK (0.1.0):
+    - ffmpeg-kit-ios-full (~> 4.5.LTS)
 
 DEPENDENCIES:
   - FWMediaSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-ios-full
 
 EXTERNAL SOURCES:
   FWMediaSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FWMediaSDK: 75bb27515d2b606b097c79b4e61d64957e3eafff
+  ffmpeg-kit-ios-full: 6d4c24316fc3c809e001c58b48d71fed2b5126db
+  FWMediaSDK: a512df1acfa77cd20d899d61439cab1b05ab1afe
 
-PODFILE CHECKSUM: 9a0ff242e8b29fc37b77962d257fb96d8ba6d8b0
+PODFILE CHECKSUM: a358174082343180cb1c8dd5a9e29313ebbaf75f
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

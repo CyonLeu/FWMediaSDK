@@ -7,6 +7,7 @@
 //
 
 #import "FWViewController.h"
+#import <FWMediaSDK/FWMediaManager.h>
 
 @interface FWViewController ()
 

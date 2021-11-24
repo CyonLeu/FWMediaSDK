@@ -1,9 +1,10 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FWMediaSDK"
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FWMediaSDK" "${PODS_ROOT}/ffmpeg-kit-ios-full"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FWMediaSDK/FWMediaSDK.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "FWMediaSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"bz2" -l"c++" -l"iconv" -l"z" -framework "AudioToolbox" -framework "CoreMedia" -framework "FWMediaSDK" -framework "dav1d" -framework "expat" -framework "ffmpegkit" -framework "fontconfig" -framework "freetype" -framework "fribidi" -framework "giflib" -framework "gmp" -framework "gnutls" -framework "harfbuzz" -framework "jpeg" -framework "kvazaar" -framework "lame" -framework "libass" -framework "libavcodec" -framework "libavdevice" -framework "libavfilter" -framework "libavformat" -framework "libavutil" -framework "libhogweed" -framework "libilbc" -framework "libnettle" -framework "libogg" -framework "libopencore-amrnb" -framework "libpng" -framework "libsndfile" -framework "libswresample" -framework "libswscale" -framework "libtheora" -framework "libtheoradec" -framework "libtheoraenc" -framework "libvorbis" -framework "libvorbisenc" -framework "libvorbisfile" -framework "libvpx" -framework "libwebp" -framework "libwebpdemux" -framework "libwebpmux" -framework "libxml2" -framework "opus" -framework "shine" -framework "snappy" -framework "soxr" -framework "speex" -framework "tiff" -framework "twolame" -framework "vo-amrwbenc"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
