@@ -5,8 +5,4 @@
 //  Created by Yong Liu on 2021/11/24.
 //
 
-#import "FWMediaConstant.h"
 
-@implementation FWMediaConstant
-
-@end
